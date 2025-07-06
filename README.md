@@ -3,7 +3,7 @@
 ## Overview
 This repository contains the implementation of the Airbnb Review Prediction Model, an academic project completed for the CPSC 330: Applied Machine Learning course. The project focuses on predicting the `reviews_per_month` for New York City Airbnb listings from 2019, using the [New York City Airbnb Open Data](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data) dataset. The goal is to estimate listing popularity to help hosts optimize their listings.
 
-The project is implemented in a Jupyter Notebook (`hw5final.ipynb`) and follows a machine learning pipeline, including data splitting, exploratory data analysis (EDA), feature engineering, preprocessing, model selection, hyperparameter tuning, feature selection, and result interpretation using SHAP values.
+The project is implemented in a Jupyter Notebook (`airbnb_pipeline.ipynb`) and follows a machine learning pipeline, including data splitting, exploratory data analysis (EDA), feature engineering, preprocessing, model selection, hyperparameter tuning, feature selection, and result interpretation using SHAP values.
 
 ## Dataset
 The dataset is the [New York City Airbnb Open Data](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data) from 2019, with 48,895 listings and 16 features:
@@ -73,7 +73,7 @@ pip install pandas matplotlib numpy scikit-learn shap otter-grader
 1. **Download Dataset**: Get `AB_NYC_2019.csv` from [Kaggle](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data) and place it in the notebook directory.
 2. **Set Up Environment**: Install required libraries.
 3. **Run Notebook**:
-   - Open `hw5final.ipynb` in Jupyter Notebook or JupyterLab.
+   - Open `airbnb_pipeline.ipynb` in Jupyter Notebook or JupyterLab.
    - Run all cells (`Kernel -> Restart Kernel and Clear All Outputs`, then `Run -> Run All Cells`).
 4. **View Results**: Outputs include tables, visualizations, and the test R² score (0.4625).
 
